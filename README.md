@@ -24,6 +24,9 @@ The Japanese, English and German entries are made available for SQL queries.
 ##### c) List Area (Lazy Column)
 - Displays search results
 - Displays help text etc.
+
+![alt text](https://github.com/ProfessorRino/Dictionary/blob/master/ScreenshotDictionary.png "screenshot")
+
   
 
 
