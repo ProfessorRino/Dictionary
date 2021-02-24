@@ -4,7 +4,7 @@
 A Dictionary app for Android using Compose (alpha12) based on [The JMDict Project](https://www.edrdg.org/jmdict/j_jmdict.html) database.  
 The Japanese, English and German entries are made available for SQL queries. 
 #### 2. Setup
-- Clone the project. 
+- Clone the project to Android Studio Canary (Arctic Fox). 
 - Download the SQLite database file from [here](https://drive.google.com/file/d/1kMeppgWQuqW6S_65F0T1xYtthY0reZng/view?usp=sharing) or run [this script](https://github.com/ProfessorRino/JMDict2SQLite/blob/master/parseBuild.py) to build your own based on the latest JMDict file.
 - Create a folder named *assets* in *app/src/main* and a folder *databases* in *assets*, then put the .db file inside. 
 #### 3. Functionality
