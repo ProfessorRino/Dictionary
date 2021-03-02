@@ -7,6 +7,7 @@ The Japanese, English and German entries are made available for SQL queries.
 - Clone the project to Android Studio Canary (Arctic Fox). 
 - Download the SQLite database file from [here](https://drive.google.com/file/d/1kMeppgWQuqW6S_65F0T1xYtthY0reZng/view?usp=sharing) or run [this script](https://github.com/ProfessorRino/JMDict2SQLite/blob/master/parseBuild.py) to build your own based on the latest JMDict file.
 - Create a folder named *assets* in *app/src/main* and a folder *databases* in *assets*, then put the .db file inside. 
+- You might have to delete *.idea/gradle.xml* and *.idea/workspace.xml* to start building.
 #### 3. Functionality
 ##### a) First Row
 - Input Field: automatically starts a query if not empty and unchanged for 3 seconds
