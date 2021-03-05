@@ -31,7 +31,7 @@ import androidx.lifecycle.ViewModelProvider
 private lateinit var jexModel: JEXViewModel
 
 
-class MainActivity : AppCompatActivity() {
+class DictionaryActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         jexModel = ViewModelProvider(this).get(JEXViewModel::class.java)
@@ -167,7 +167,7 @@ fun ControlRow() {
 
 @Composable
 fun SearchResults() {
-    val results: MutableList<List<JEXEntity>> by jexModel.results.observeAsState(mutableListOf())
+    val results: List<List<JEXEntity>> by jexModel.results.observeAsState(listOf())
     val japaneseCheck: Boolean by jexModel.jap.observeAsState(true)
     val annotationsCheck: Boolean by jexModel.annot.observeAsState(true)
     val englishCheck: Boolean by jexModel.en.observeAsState(true)
