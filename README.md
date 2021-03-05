@@ -26,7 +26,7 @@ The Japanese, English and German entries are made available for SQL queries.
 - Displays search results
 - Displays help text etc.
 
-![alt text](https://github.com/ProfessorRino/Dictionary/blob/master/ScreenshotDictionary.png "screenshot")
+![alt text](https://github.com/ProfessorRino/Dictionary/ScreenshotDictionary.png "screenshot")
 
   
 
