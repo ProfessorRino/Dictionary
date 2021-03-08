@@ -1,7 +1,7 @@
 # Dictionary
 ## JMDict Android App using Jetpack Compose
 #### 1. Outline
-A Dictionary app for Android using Compose (alpha12) based on [The JMDict Project](https://www.edrdg.org/jmdict/j_jmdict.html) database.  
+A Dictionary app for Android using Compose (beta01) based on [The JMDict Project](https://www.edrdg.org/jmdict/j_jmdict.html) database.  
 The Japanese, English and German entries are made available for SQL queries. 
 #### 2. Setup
 - Clone the project to Android Studio Canary (Arctic Fox). 
